@@ -18,3 +18,27 @@ for i in 0...m do
 	end
 end 		#definimos el tamaño de c y d y las incializamosa 0
 
+#realizamos la suma
+
+for i in 0...m do
+	for j in 0...n do
+		c[i][j] = a[i][j] + b[i][j]
+	end
+end
+
+#mostrar las matrices
+
+puts "\n La Matriz 1 es = "
+a.each do |fila|
+	puts fila.join(" ")
+end
+
+puts "\n La Matriz 2 es = "
+b.each do |fila|
+	puts fila.join(" ")
+end
+
+puts "\n La suma de las matrices es = "
+c.each do |fila|
+	puts fila.join(" ")
+end 
