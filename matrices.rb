@@ -57,14 +57,7 @@ c.each do |fila|
 end 
 
 puts "\n La multiplicacion de las matrices es = "
-#muestra cada valor en una linea
-#e.each { |e| puts e }
-
-#muestra cada fila por separado
-#for i in 0...m do
-#	puts e.row(i)
-#end
-
 d.each do |fila|
 	puts fila.join(" ")
 end
+
