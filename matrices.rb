@@ -1,6 +1,8 @@
 #! /usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
 #Version final, con ramas fusionadas y funcionando
-puts 'Forzando un error de fusión de ramas'
+
+#errores everywhere
+#errores en todos lados
 
 #definimos 2 matrices por defecto
 #a = [[3,5,6],[0,3,2],[5,5,4]] #matriz 1
